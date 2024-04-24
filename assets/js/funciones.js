@@ -9,4 +9,15 @@ $(document).ready(function(){
             }, 1000);
         }
     });
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+            if (scroll > 50) {
+                $(".navbar").css("background-color", "#333"); // Cambiar el color de fondo al hacer scroll
+            } else {
+                $(".navbar").css("background-color", "transparent"); // Restaurar el color de fondo al llegar al principio
+            }
+        });
+    
 });
+    
+
