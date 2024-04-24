@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Importar la fuente Lobster desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Definir la fuente Quinoa SC Light */
+@font-face {
+    font-family: 'Quinoa SC Light';
+    src: url('ruta/de/tu/archivo/quinoa-light.woff2') format('woff2'),
+         url('ruta/de/tu/archivo/quinoa-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap; /* Esta propiedad es opcional y puede mejorar el rendimiento */
+}
+
+/* Aplicar la fuente Quinoa SC Light al cuerpo del documento */
+body {
+    font-family: 'Quinoa SC Light', 'Lobster', sans-serif;
+    /* Otros estilos para el cuerpo */
+}
+
+section h2 {
+    text-align: center;
+    color: #ffff;
+    margin-top: 20px;
+    padding: 20px;
+}
+.icono {
+    background-color: #2596be; /* Color de fondo */
+    font-size: 35px;
+    height: 30px;
+
+}
+
+.texto {
+    background-color: #000; /* Color de fondo */
+    color: #fff; /* Color de texto blanco */
+    padding: 20px; /* Espaciado interno */
+}
+
+.icon-background {
+    background-color: #2596be;
+    padding: 20px;
+    border-radius: 50%;
+}
+.text-background {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card-text {
+    text-align: justify;
+}
+
+.card-body {
+    background-color: #2596be;
+    color: #ffff;
+    
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 200px; 
+    
+}
+
+#Contactame h2 {
+    text-align: center;
+    font-size: 3.125rem;
+    margin-top: 40px;
+}
+
+#Contactame .button-contactame {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.form-label {
+    color: #ffff;
+}
+
+#pagos {
+    background-color: #2596be;
+
+}
+.icono-con-margen {
+    margin-right: 10px; 
+}
+
+footer i {
+    color: #fff;
+}
+footer i:hover {
+    color: blue;
+}
